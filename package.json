@@ -1,0 +1,17 @@
+{
+  "name": "monopoly",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Monopoly App ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Monopoly",
+    "Bank",
+    "Game"
+  ],
+  "author": "Alberto Mendoza",
+  "license": "MIT"
+}
