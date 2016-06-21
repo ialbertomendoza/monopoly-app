@@ -12,6 +12,30 @@
     "Bank",
     "Game"
   ],
+  "dependencies": {
+    "axios": "^0.12.0",
+    "empty-element": "^1.0.0",
+    "express": "^4.13.4",
+    "materialize-css": "^0.97.6",
+    "page": "^1.7.1",
+    "pug": "^2.0.0-beta2",
+    "superagent": "^2.0.0",
+    "title": "^1.0.0",
+    "watchify": "^3.7.0",
+    "yo-yo": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-regenerator": "^6.9.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
   "author": "Alberto Mendoza",
   "license": "MIT"
 }
