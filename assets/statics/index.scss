@@ -1,0 +1,23 @@
+@import "node_modules/materialize-css/sass/materialize.scss";
+
+html {
+    font-family: 'Muli', sans-serif;
+}
+
+.button-collapse {
+	margin-left: 10px;
+}
+
+.selected{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media all and (max-width: 400px) {
+    #main-menu {
+        visibility: visible;
+    }
+}
+
+.card-action a {
+	color: white !important;
+}

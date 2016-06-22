@@ -5,7 +5,8 @@
   "description": "Monopoly App ",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp",
+    "start": "gulp watch & node app.js"
   },
   "keywords": [
     "Monopoly",

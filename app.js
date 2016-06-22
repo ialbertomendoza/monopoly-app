@@ -8,30 +8,16 @@ app.use(express.static('public'));
 /* Inicio Rutas */
 
 app.get('/', function(req, res){
-	res.redirect("/home");
+	res.redirect("home");
 });
 
-/* Inicio Rutas Administracion */
-app.get('/bank', function(req, res){
-	res.render('index');
+app.get('/home', function(req, res){
+	res.render("index");
 });
-/* Fin Rutas Administracion */
-
-/* Inicio Rutas Instituciones */
-app.get('/users', function(req, res){
-	res.render('index');
-});
-/* Fin Rutas Instituciones */
-
-/* Inicio Rutas Usuarios */
-app.get('/salir', function(req, res){
-	res.render('index');
-});
-/* Fin Rutas Usuarios */
 
 /* Fin Rutas */
 
-app.listen(8080, function(error){
+app.listen(8000, function(error){
 	if (error) return console.log("Error"), process.exit(1);
-	console.log("Aplicación iniciada");
+	console.log("Monopoly Bank Started");
 });
