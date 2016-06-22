@@ -4,12 +4,22 @@ html {
     font-family: 'Muli', sans-serif;
 }
 
+#contenedor-principal {
+	padding-left: 240px;
+}
+
 .button-collapse {
 	margin-left: 10px;
 }
 
 .selected{
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card {
+	span, h3, a {
+		color: black !important;
+	}
 }
 
 @media all and (max-width: 400px) {
@@ -18,8 +28,8 @@ html {
     }
 }
 
-.card {
-	span, h3, a {
-		color: black !important;
-	}
+@media only screen and (max-width: 992px) {
+    #contenedor-principal {
+        padding-left: 0;
+    }
 }

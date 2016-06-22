@@ -5,8 +5,8 @@ module.exports = yo`<div class="row">
 			<div class="row">
 				<div class="col s12 m12 l12">
 		          <div class="card">
-		            <div class="card-content white-text">
-		              <span class="card-title">Mendoza</span>
+		            <div class="card-content">
+		              <span class="card-title">Jugador 1</span>
 		              <h3>$ 250,000.00</h3>
 		            </div>
 		            <div class="card-action">
@@ -19,8 +19,8 @@ module.exports = yo`<div class="row">
 			</div>
 	        <div class="row">
 				<div class="col s12 m4 l4">
-		          <div class="card teal white-text">
-		            <div class="card-content white-text">
+		          <div class="card">
+		            <div class="card-content">
 		              <span class="card-title">Ingresos</span>
 		              <h3></h3>
 		            </div>
@@ -30,8 +30,8 @@ module.exports = yo`<div class="row">
 		          </div>
 		        </div>
 		        <div class="col s12 m4 l4">
-		          <div class="card red">
-		            <div class="card-content white-text">
+		          <div class="card">
+		            <div class="card-content">
 		              <span class="card-title">Egresos</span>
 		              <h3></h3>
 		            </div>
