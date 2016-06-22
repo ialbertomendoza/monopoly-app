@@ -9,7 +9,7 @@ html {
 }
 
 .selected{
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media all and (max-width: 400px) {
@@ -18,6 +18,8 @@ html {
     }
 }
 
-.card-action a {
-	color: white !important;
+.card {
+	span, h3, a {
+		color: black !important;
+	}
 }

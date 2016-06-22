@@ -11,6 +11,7 @@ var menu = yo`<nav class="blue-grey darken-4">
                     <li id="menu-superior-mis-juegos" onclick=${onclick}><a href="#!"><i class="fa fa-area-chart" aria-hidden="true"></i> Historial de juegos</a></li>
                     <li id="menu-superior-mi-perfil" onclick=${onclick}><a href="#!"><i class="fa fa-user" aria-hidden="true"></i> Mi perfil</a></li>
                     <li id="menu-superior-ayuda" onclick=${onclick}><a href="#!"><i class="fa fa-question-circle" aria-hidden="true"></i> Ayuda</a></li>
+                    <li id="menu-superior-salir" onclick=${onclick}><a href="#!"><i class="fa fa-sign-out" aria-hidden="true"></i> Salir</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li onclick=""><a href="#!"><i class="fa fa-gamepad" aria-hidden="true"></i> Juego actual</a></li>
@@ -18,6 +19,7 @@ var menu = yo`<nav class="blue-grey darken-4">
                     <li onclick=""><a href="#!"><i class="fa fa-area-chart" aria-hidden="true"></i> Historial de juegos</a></li>
                     <li onclick=""><a href="#!"><i class="fa fa-user" aria-hidden="true"></i> Mi perfil</a></li>
                     <li onclick=""><a href="#!"><i class="fa fa-question-circle" aria-hidden="true"></i> Ayuda</a></li>
+                    <li onclick=""><a href="#!"><i class="fa fa-sign-out" aria-hidden="true"></i> Salir</a></li>
                 </ul>
             </div>
         </nav>`;
